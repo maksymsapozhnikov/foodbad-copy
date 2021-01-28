@@ -1,0 +1,14 @@
+<?php
+
+namespace frontend\widgets;
+
+use yii\base\Widget;
+
+class RequestImgUpload extends Widget
+{
+
+    public function run()
+    {
+        return $this->render('request-img-upload');
+    }
+}

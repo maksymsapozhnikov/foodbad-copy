@@ -1,0 +1,77 @@
+.user-index {
+    position: relative;
+}
+
+.user-index .image-control {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    display: none;
+}
+
+.image-block:hover .image-control {
+    display: block;
+}
+
+.cuisine-item {
+    border: 1px solid #ccc;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.cuisine-types-form .cuisine-item {
+    cursor: pointer;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-top: 4px;
+}
+
+.request-view .box-images img {
+    margin: 20px 10px;
+    border-radius: 6px;
+    border: 4px solid #ccc;
+}
+
+.request-view .user-info {
+    padding: 25px;
+    display: inline-block;
+}
+
+.request-view .user-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.report-index #report-deliveryserviceid label {
+    margin-right: 10px;
+}
+
+.report-index #report-deliveryserviceid{
+    padding-top: 10px;
+}
+
+.report-index .select2-container--krajee .select2-selection--multiple .select2-search--inline .select2-search__field{
+    padding: 3px 0 0 5px;
+}
+
+.report-index .select2-container--krajee .select2-selection--multiple .select2-selection__choice{
+    margin: 7px 0 0 6px;
+}
+
+.report-show span.filter-title{
+    display: inline-block;
+    width: 140px;
+}
+
+.restaurant-index .kv-drp-dropdown .left-ind {
+    left: 5px;
+    top: 8px;
+}
+.restaurant-index .kv-clear{
+    display: none;
+}
+
